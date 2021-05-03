@@ -61,7 +61,7 @@ const (
 )
 
 type OpenOrderModel struct {
-	ID            int32   `json:"id"`
+	ID            int   `json:"id"`
 	Price         string  `json:"price"`
 	Amount        string  `json:"amount"`
 	Quantity      string  `json:"quantity"`
